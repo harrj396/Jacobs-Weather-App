@@ -1,7 +1,7 @@
 // Global variables
-// search history as an empty array
-// weather api root url
-// api key
+var city = ''
+const weathUrl = 'api.openweathermap.org/data/2.5/weather?q=' + city + '&APPID=7dd863677f47fe61b2318f317f2f011f'
+
 
 // DOM element references
 // search form
